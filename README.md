@@ -11,8 +11,17 @@ Study material to get the Google Developer Android Kotlin certificate.
 
 ### Topics studied
 Android core
-- [Android Developers -> Toasts] 0%
-- [Android Developers -> Snackbar] 0%
+To prepare for the Associate Android Developer certification exam, developers should:
+ - [Understand the architecture of the Android system](https://medium.com/@deepamgoel/understanding-android-architecture-1f0fb4b52f90)
+ - Be able to describe the basic building blocks of an Android app
+ - Know how to build and run an Android app
+ - Display simple messages in a popup using a Toast or a Snackbar
+ - Be able to display a message outside your app's UI using Notifications
+ - Understand how to localize an app
+ - Be able to schedule a background task using WorkManager
+
+- [Android Developers -> Toasts]() 0%
+- [Android Developers -> Snackbar]() 0%
 - [Android Developers -> Localize your app]() 0%
 - [Android Developers -> Application fundamentals]() 0%
 - [Android Developers -> Create a notification]() 0%
