@@ -2,37 +2,25 @@
 Study material to get the Google Developer Android Kotlin certificate.
 - [Study guide: Associate Android Developer Certification](https://developers.google.com/certification/associate-android-developer/study-guide/)
 
-### Guide Line
-- [Android core](https://developers.google.com/certification/associate-android-developer/study-guide/android-core)
-- [User interface](https://developers.google.com/certification/associate-android-developer/study-guide/user-interface)
-- [Data management](https://developers.google.com/certification/associate-android-developer/study-guide/data-management)
-- [Debugging](https://developers.google.com/certification/associate-android-developer/study-guide/debugging)
-- [Testing](https://developers.google.com/certification/associate-android-developer/study-guide/testing)
 
 ### Topics studied
-Android core
+#### [Android core](https://developers.google.com/certification/associate-android-developer/study-guide/android-core)
 To prepare for the Associate Android Developer certification exam, developers should:
  - [Understand the architecture of the Android system](https://medium.com/@deepamgoel/understanding-android-architecture-1f0fb4b52f90)
- - Be able to describe the basic building blocks of an Android app
- - Know how to build and run an Android app
- - Display simple messages in a popup using a Toast or a Snackbar
+ - [Be able to describe the basic building blocks of an Android app](https://medium.com/@blazebnayak/android-fundamentals-building-blocks-and-intents-4ada94407b82)
+ - [Know how to build and run an Android app](https://developer.android.com/studio/run)
+ - [Display simple messages in a popup using a Toast or a Snackbar](android-core/android-core-certification/app/scr/main/java/com/danielvilha/android_core_certification/MainActivity.kt)
  - Be able to display a message outside your app's UI using Notifications
  - Understand how to localize an app
  - Be able to schedule a background task using WorkManager
 
-- [Android Developers -> Toasts]() 0%
-- [Android Developers -> Snackbar]() 0%
-- [Android Developers -> Localize your app]() 0%
-- [Android Developers -> Application fundamentals]() 0%
-- [Android Developers -> Create a notification]() 0%
-- [Android Developers -> AndroidX overview]() 0%
-- [Android Developers -> Getting started with Jetpack]() 0%
-- [Android Developers -> Android KTX (Kotlin)]() 0%
-- [Codelabs -> Notifications]() 0%
-- [Codelabs -> JobScheduler]() 0%
-- [Codelabs -> WorkManager (Kotlin)]() 0%
+##### Related Course Content
+Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 2: Create your first Android app
+Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 3: Build a basic layout
+Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 4: Add a button to an app
 
-User interface
+
+#### [User interface](https://developers.google.com/certification/associate-android-developer/study-guide/user-interface)
 - [Android Developers -> Build a responsive UI with ConstraintLayout]() 0%
 - [Android Developers -> Create a list with RecyclerView]() 0%
 - [Android Developers -> Create a navigation drawer]() 0%
@@ -54,7 +42,8 @@ User interface
 - [Codelabs -> Constraint layout using the Layout Editor]() 0%
 - [Codelabs -> RecyclerView fundamentals (Kotlin)]() 0%
 
-Data management
+
+#### [Data management](https://developers.google.com/certification/associate-android-developer/study-guide/data-management)
 - [Android Developers -> Shared preferences]() 0%
 - [Codelabs -> Room, LiveData and ViewModel]() 0%
 - [Codelabs -> Repository]() 0%
@@ -64,21 +53,24 @@ Data management
 - [Codelabs -> ViewModel and ViewModelFactory]() 0%
 - [Codelabs -> Room with a View (Kotlin)]() 0%
 
-Debugging
+
+#### [Debugging](https://developers.google.com/certification/associate-android-developer/study-guide/debugging)
 - [Android Developers -> Debug your app]() 0%
 - [Android Dev Fundamentals -> Write and view logs with Logcat]() 0%
 - [Codelabs -> Android Studio debugger]() 0%
 - [Codelabs -> Add log statements to your app]() 0%
 
-Testing
+
+#### [Testing](https://developers.google.com/certification/associate-android-developer/study-guide/testing)
 - [Android Developers -> Fundamentals of testing]() 0%
 - [Android Dev Fundamentals -> Automate UI tests]() 0%
 - [Codelabs -> Unit tests]() 0%
 - [Codelabs -> Android Testing -> Unit testing with JUnit and Mockito]() 0%
 - [Codelabs -> Android Testing -> Espresso for UI testing]() 0%
 
+
 ## Licence
-Copyright 2020 Daniel Freitas Vilha
+Copyright 2021 Daniel Freitas Vilha
 ```
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
