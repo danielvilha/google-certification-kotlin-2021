@@ -1,10 +1,23 @@
 <resources>
     <string name="app_name">Android core certification</string>
 
+    <string name="message_button">Open Message View</string>
+    <string name="notification_button">Open Notification View</string>
+
+    // Message View
     <string name="toast_button">Toast Button</string>
     <string name="snackbar_button">Snackbar Button</string>
-
     <string name="message">Message from a</string>
     <string name="toast">Toast</string>
     <string name="snackbar">Snackbar</string>
+
+    // Notification View
+    <string name="basic_notification_button">Basic Notification</string>
+    <string name="basic_notification_with_icon_button">Basic Notification With Icon</string>
+    <string name="notification_with_action_button">Notification With Action Button</string>
+    <string name="notification_with_direct_reply_button">Notification With Direct Reply</string>
+    <string name="notification_with_progress_bar_button">Notification With Progress Bar</string>
+    <string name="snooze">Snooze</string>
+    <string name="reply_label">Reply</string>
+
 </resources>

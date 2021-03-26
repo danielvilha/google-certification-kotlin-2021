@@ -1,27 +1,37 @@
 package com.danielvilha.android_core_certification
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
-import com.google.android.material.snackbar.Snackbar
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
+import com.danielvilha.android_core_certification.databinding.ActivityMainBinding
 
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    // https://developer.android.com/topic/libraries/view-binding
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
     }
 
     override fun onStart() {
         super.onStart()
-        // https://www.baeldung.com/kotlin/concatenate-strings
-        button_toast.setOnClickListener {
-            Toast.makeText(this, "${getString(R.string.message)} ${getString(R.string.toast)}", Toast.LENGTH_LONG).show()
+        binding.buttonMessageView.setOnClickListener {
+            val manager: FragmentManager = supportFragmentManager
+            val transaction: FragmentTransaction = manager.beginTransaction()
+            transaction.replace(R.id.container, MessagesFragment.newInstance())
+            transaction.commit()
         }
 
-        button_snackbar.setOnClickListener {
-            Snackbar.make(constraint, "${getString(R.string.message)} ${getString(R.string.snackbar)}", Snackbar.LENGTH_LONG).show()
+        binding.buttonNotificationView.setOnClickListener {
+            val manager: FragmentManager = supportFragmentManager
+            val transaction: FragmentTransaction = manager.beginTransaction()
+            transaction.replace(R.id.container, NotificationFragment.newInstance())
+            transaction.commit()
         }
     }
 }

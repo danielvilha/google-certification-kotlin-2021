@@ -10,7 +10,7 @@ To prepare for the Associate Android Developer certification exam, developers sh
  - [Be able to describe the basic building blocks of an Android app](https://medium.com/@blazebnayak/android-fundamentals-building-blocks-and-intents-4ada94407b82)
  - [Know how to build and run an Android app](https://developer.android.com/studio/run)
  - [Display simple messages in a popup using a Toast or a Snackbar](android-core/android-core-certification/app/scr/main/java/com/danielvilha/android_core_certification/MainActivity.kt)
- - Be able to display a message outside your app's UI using Notifications
+ - [Be able to display a message outside your app's UI using Notifications](https://developer.android.com/training/notify-user/build-notification)
  - Understand how to localize an app
  - Be able to schedule a background task using WorkManager
 
