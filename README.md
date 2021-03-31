@@ -15,10 +15,13 @@ To prepare for the Associate Android Developer certification exam, developers sh
  - Be able to schedule a background task using WorkManager
 
 ##### Related Course Content
-Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 2: Create your first Android app
-Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 3: Build a basic layout
-Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 4: Add a button to an app
+- [Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 2: Create your first Android app](https://developer.android.com/courses/pathways/android-basics-kotlin-two) 100%
+- [Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 3: Build a basic layout](https://developer.android.com/courses/pathways/android-basics-kotlin-three) 100%
+- [Android Basics in Kotlin Unit 1 - Kotlin Basics for Android, Pathway 4: Add a button to an app](https://developer.android.com/courses/pathways/android-basics-kotlin-four) 100%
 
+
+#### Other Resources
+- [Codelabs -> WorkManager (Kotlin)](https://developer.android.com/codelabs/android-workmanager#0) 0%
 
 #### [User interface](https://developers.google.com/certification/associate-android-developer/study-guide/user-interface)
 - [Android Developers -> Build a responsive UI with ConstraintLayout]() 0%
