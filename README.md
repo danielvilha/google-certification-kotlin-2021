@@ -21,7 +21,14 @@ To prepare for the Associate Android Developer certification exam, developers sh
 
 
 #### Other Resources
-- [Codelabs -> WorkManager (Kotlin)](https://developer.android.com/codelabs/android-workmanager#0) 0%
+- [Codelabs -> WorkManager (Kotlin)](https://developer.android.com/codelabs/android-workmanager#0) 100%
+- [Android Developers -> Application fundamentals](https://developer.android.com/guide/components/fundamentals) 0%
+- [Android Developers -> Getting started with Jetpack](https://developer.android.com/jetpack/guide) 0%
+- [Android Developers -> AndroidX overview](https://developer.android.com/jetpack/androidx) 0%
+- [Android Developers -> Android KTX (Kotlin)](https://developer.android.com/kotlin/ktx) 0%
+- [Android Developers -> Localize your app](https://developer.android.com/guide/topics/resources/localization) 0%
+- [Android Developers -> Create a notification](https://developer.android.com/training/notify-user/build-notification) 0%
+- [Android Developers -> Toasts](https://developer.android.com/guide/topics/ui/notifiers/toasts) 0%
 
 #### [User interface](https://developers.google.com/certification/associate-android-developer/study-guide/user-interface)
 - [Android Developers -> Build a responsive UI with ConstraintLayout]() 0%
